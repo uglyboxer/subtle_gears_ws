@@ -1,0 +1,133 @@
+/** {
+	border: 1px solid red;
+}*/
+
+html {
+	height: 100%;
+	width:	100%;
+	margin: 0px;
+	background: -webkit-linear-gradient(45deg, black, lightgray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(45deg, black, lightgray); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(45deg, black, lightgray); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(45deg, black, lightgray); /* Standard syntax */
+	font-size: 5em;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bolder;	
+		}
+
+#bg_image {
+	display: none;
+}
+
+
+
+#wrapper {
+	position: absolute;
+	bottom: 2%;
+	left: 2%;
+	width: 100%;
+
+}
+
+.letter {
+	display: inline;
+	color: #444536;
+	opacity: .8;
+	}
+
+.letter_width {
+	display: inline-block;
+	width: 48px;
+	}
+
+
+.letter_width_s {
+	display: inline-block;
+	width: 40px;
+	}
+
+.letter_width_t {
+	display: inline-block;
+	width: 44px;
+	}
+
+.letter_width_l {
+	display: inline-block;
+	width: 22px;
+	}
+
+.navigation {
+	
+	text-align: right;
+	font-size: .35em;
+	text-transform: lowercase;
+	margin-right: 5%;
+	}
+
+ul {
+	list-style-type: none;
+}
+
+
+a, a:visited {
+	color: #444536;
+	padding: 0px 4px;
+	text-decoration: none;
+}
+
+#content_wrapper {
+	font-family: 'Whitney SSm a';
+	font-weight: normal;
+	font-size: .3em;
+	color: #444536;
+	text-align: right;
+	position: absolute;
+	top: 8%;
+	right: 8%;
+}
+
+#content_wrapper_2 {
+	font-family: 'Whitney SSm a';
+	font-weight: normal;
+	font-size: .25em;
+	color: #444536;
+	text-align: left;
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	bottom: 40%;
+	margin-right: 5%;
+	overflow: scroll;
+}
+
+#fade_wrapper_1 {
+	display: none;
+	font-family: 'Whitney SSm a';
+	font-weight: normal;
+	font-size: .25em;
+	color: #444536;
+	text-align: left;
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	bottom: 40%;
+	margin-right: 5%;
+	overflow: scroll;
+}
+
+#fade_wrapper_2 {
+	display: none;
+	font-family: 'Whitney SSm a';
+	font-weight: normal;
+	font-size: .25em;
+	color: #444536;
+	text-align: right;
+	position: absolute;
+	top: 8%;
+	bottom: 40%;
+	right: 5%;
+	margin-right: 5%;
+	overflow: scroll;
+}
+
+
