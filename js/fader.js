@@ -3,7 +3,7 @@ $(".letter").hover(function(){
 });
 
 
-$("a").on('click', function(){
+$(".nav_link").on('click', function(){
 	event.preventDefault();
 	if ($(this).attr("id") == "about_link") {
 		$("#fade_wrapper_2").fadeOut("slow");
