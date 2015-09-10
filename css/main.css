@@ -21,13 +21,15 @@ html {
 
 
 
-#wrapper {
+#title_wrapper {
 	position: absolute;
 	bottom: 2%;
 	left: 2%;
 	width: 100%;
 
 }
+
+/* Title Kerning */
 
 .letter {
 	display: inline;
@@ -56,6 +58,8 @@ html {
 	width: 22px;
 	}
 
+/* Navigation styling */
+
 .navigation {
 	
 	text-align: right;
@@ -74,6 +78,10 @@ a, a:visited {
 	padding: 0px 4px;
 	text-decoration: none;
 }
+
+/* For the text displayed in the upper right corner.
+Content wrappers are for non-js pages, fade wrappers
+are for javascript prettiness. */
 
 #content_wrapper {
 	font-family: 'Whitney SSm a';
@@ -100,7 +108,7 @@ a, a:visited {
 	overflow: scroll;
 }
 
-#fade_wrapper_1 {
+#about_fade_wrapper {
 	display: none;
 	font-family: 'Whitney SSm a';
 	font-weight: normal;
@@ -115,7 +123,7 @@ a, a:visited {
 	overflow: scroll;
 }
 
-#fade_wrapper_2 {
+#contact_fade_wrapper {
 	display: none;
 	font-family: 'Whitney SSm a';
 	font-weight: normal;

@@ -1,20 +1,24 @@
+// Fades out individual letters of Title in page 
+
 $(".letter").hover(function(){
 	$(this).fadeToggle("slow");
 });
 
 
+// Fades out conent section in upper right of screen based on nav selection 
+
 $(".nav_link").on('click', function(){
 	event.preventDefault();
 	if ($(this).attr("id") == "about_link") {
-		$("#fade_wrapper_2").fadeOut("slow");
-		$("#fade_wrapper_1").fadeIn("slow");
+		$("#contact_fade_wrapper").fadeOut("slow");
+		$("#about_fade_wrapper").fadeIn("slow");
 	}
 	if ($(this).attr("id") == "contact_link") {
-		$("#fade_wrapper_1").fadeOut("slow");
-		$("#fade_wrapper_2").fadeIn("slow");
+		$("#about_fade_wrapper").fadeOut("slow");
+		$("#contact_fade_wrapper").fadeIn("slow");
 	}
 	if ($(this).attr("id") == "home_link") {
-		$("#fade_wrapper_1").fadeOut("slow");
-		$("#fade_wrapper_2").fadeOut("slow");
+		$("#about_fade_wrapper").fadeOut("slow");
+		$("#contact_fade_wrapper").fadeOut("slow");
 	}
 });
