@@ -15,18 +15,43 @@ html {
 	font-weight: bolder;	
 		}
 
-#bg_image {
-	display: none;
+#no_js_title {						   /*For pages with no javascript*/
+	position: absolute;
+	bottom: 6%;
+	left: 6%;
+	width: 100%;
 }
 
-
-
-#title_wrapper {
+#s_title {
+	display: none;
 	position: absolute;
-	bottom: 2%;
-	left: 2%;
+	bottom: 6%;
+	left: 6%;
 	width: 100%;
+}
 
+#a_title {
+	display: none;
+	position: absolute;
+	bottom: 5.75%;
+	left: 5.75%;
+	width: 100%;
+}
+
+#p_title {
+	display: none;
+	position: absolute;
+	bottom: 5.875%;
+	left: 5.875%;
+	width: 100%;
+}
+
+#c_title {
+	display: none;
+	position: absolute;
+	bottom: 5.875%;
+	left: 5.875%;
+	width: 100%;
 }
 
 /* Title Kerning */
@@ -61,11 +86,12 @@ html {
 /* Navigation styling */
 
 .navigation {
-	
+	position: absolute;
 	text-align: right;
 	font-size: .35em;
 	text-transform: lowercase;
-	margin-right: 5%;
+	right: 5%;
+	bottom: 5%;
 	}
 
 ul {
@@ -77,6 +103,10 @@ a, a:visited {
 	color: #444536;
 	padding: 0px 4px;
 	text-decoration: none;
+}
+
+.selected {
+	text-shadow: 0 0 8px #484940;
 }
 
 /* For the text displayed in the upper right corner.
